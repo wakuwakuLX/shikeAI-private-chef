@@ -1,0 +1,84 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "食刻AI",
+        "navigationBarBackgroundColor": "#FF8C42",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/chat/chat",
+      "style": {
+        "navigationBarTitleText": "AI对话",
+        "navigationBarBackgroundColor": "#FF8C42",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/recipe-detail/recipe-detail",
+      "style": {
+        "navigationBarTitleText": "菜谱详情",
+        "navigationBarBackgroundColor": "#FF8C42",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/diet-plan-detail/diet-plan-detail",
+      "style": {
+        "navigationBarTitleText": "饮食计划",
+        "navigationBarBackgroundColor": "#FF8C42",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/favorites/favorites",
+      "style": {
+        "navigationBarTitleText": "我的收藏",
+        "navigationBarBackgroundColor": "#FF8C42",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/history/history",
+      "style": {
+        "navigationBarTitleText": "历史记录",
+        "navigationBarBackgroundColor": "#FF8C42",
+        "navigationBarTextStyle": "white"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "食刻AI",
+    "navigationBarBackgroundColor": "#FF8C42",
+    "backgroundColor": "#FFF8F0"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#FF8C42",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home-active.png"
+      },
+      {
+        "pagePath": "pages/favorites/favorites",
+        "text": "收藏",
+        "iconPath": "static/star.png",
+        "selectedIconPath": "static/star-active.png"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "历史",
+        "iconPath": "static/history.png",
+        "selectedIconPath": "static/history-active.png"
+      }
+    ]
+  }
+}

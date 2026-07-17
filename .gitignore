@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+venv*/
+.env
+.env.local
+.env.*.local
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+data/*.db
+
+# UniApp/H5
+node_modules/
+dist/
+build/
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+*.DS_Store
+Thumbs.db
+
+# Python dependencies
+requirements.txt.bak
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Flask/FastAPI
+instance/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# UniApp specific
+unpackage/
+pages.json.bak
+manifest.json.bak
